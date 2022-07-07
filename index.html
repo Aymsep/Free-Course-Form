@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey-Form</title>
+</head>
+<body>
+    <!---->
+    <h1 id="title"> Aymsep Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our future products.</p>
+    <p id="description" style="text-transform: capitalize;letter-spacing:1px;">fill the form and get free courses with certificates, all for free.</p>
+    <form action="" id="survey-form">
+        <!---->
+        
+        <label for="" id="name-label">full name <br> <input type="text" placeholder="Enter your name" name="user-name" id="name" required></label><br>
+
+        <label for="" id="email-label">email <br> <input type="email" placeholder="Enter your email" name="user-email" id="email" required></label><br>
+        
+        <label for="" id="number-label">age (optional) <br> <input type="number" min="16"  placeholder="Age" name="user-age" id="number"></label><br>
+
+        <label for="person-role" id="current">Which option best describes your current role? <br></label>
+
+        <select name="person-role" id="dropdown">
+            <option value="" disabled selected>Select current role</option>
+            <option value="student">Student</option>
+            <option value="Part-time">Part-time Job</option>
+            <option value="Full-time">Full-Time Job</option>
+            <option value="not-saying">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select><br>
+
+    
+
+        
+
+            <label for="" id="radio-label" >Would you recommend us  to a friend?</label><br>
+
+            <label for="radio-1">
+            <input type="radio" name="refer" value="Definitely" id="radio-1">
+            Definitely
+            </label><br>
+
+            <label for="radio-2">
+            <input type="radio" name="refer" value="Maybe" id="radio-2">
+            Maybe
+            </label><br>
+
+            <label for="radio-3">
+            <input type="radio" name="refer" value="Not-sure" id="radio-3">
+            Not sure
+            </label><br><br>
+
+            <label for="" id="favo-features" >What kind of courses do you need?</label>
+            
+            <select name="current-role" id="current-role">
+                <option value="" disabled selected>Select Categories</option>
+                <option value="">Business</option>
+                <option value="">Design</option>
+                <option value="">Photography & Video</option>
+                <option value="">Music </option>
+                <option value="">Development </option>
+                <option value="">Marketing </option>
+                <option value="">IT & Software </option>
+                <option value="">Health & Fitness</option>
+                <option value="">Office Productivity</option>
+                <option value="">Personal Development</option>
+                <option value="">Finance & Accounting</option>
+            </select><br><br>
+
+            <label for="" id="improved-check">What would you like to add with course? <span style="font-size:15px; letter-spacing:1px;">(Check all that apply)</span></label>
+
+            <label for="check-1">
+                <input type="checkbox" name="improved-idea" value="Front-end Projects" id="check-1">
+                Certificate
+            </label><br>
+
+            <label for="check-2">
+            <input type="checkbox" name="improved-idea" value="Back-end Projects" id="check-2">
+            Projects
+            </label><br>
+
+            <label for="check-3">
+                <input type="checkbox" name="improved-idea" value="Data Visualization" id="check-3">
+                Challenges
+            </label><br>
+
+            <label for="check-4">
+                <input type="checkbox" name="improved-idea" value="Challenges" id="check-4">
+                resources
+            </label><br>
+
+            <label for="check-5">
+                <input type="checkbox" name="improved-idea" value="Open Source Community" id="check-5">
+                Open Source Community
+            </label><br>
+
+            <label for="check-6">
+                <input type="checkbox" name="improved-idea" value="Gitter help rooms" id="check-6">
+                live events
+            </label><br>
+
+            <label for="check-7">
+                <input type="checkbox" name="improved-idea" value="Videos" id="check-7">
+                newsletter
+            </label><br>
+
+            <label for="check-8">
+                <input type="checkbox" name="improved-idea" value="City Meetups" id="check-8">
+                City Meetups
+            </label><br>
+
+            <label for="check-9">
+                <input type="checkbox" name="improved-idea" value="Wiki" id="check-9">
+                Wiki
+            </label><br>
+
+            <label for="check-10">
+                <input type="checkbox" name="improved-idea" value="Forum" id="check-10">
+                Forum
+            </label><br>
+
+            <label for="check-11">
+                <input type="checkbox" name="improved-idea" value="Additional Courses" id="check-11">
+                Additional Courses
+            </label><br><br>
+            
+            <label for="" id="textarea">Any comments or suggestions?</label><br>
+            <textarea name="" id="area"  placeholder="Enter your comment here..."></textarea><br><br>
+
+            <button type="submit" id="submit">Submit</button>
+        
+        <!---->
+        
+    </form>
+</body>
+</html>
